@@ -1,0 +1,23 @@
+.allFooter {
+  position: absolute;
+  width: 99%;
+  bottom: 10px;
+}
+
+.absolute {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer{
+  
+  display: flex;
+      justify-content: center;
+      /* bottom: auto; */
+      /* align-content: center; */
+      align-items: center;
+      margin-top: 370px;
+      gap: 10px;
+  
+}

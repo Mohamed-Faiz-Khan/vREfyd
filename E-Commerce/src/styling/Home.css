@@ -1,0 +1,14 @@
+.rows{    
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+}
+
+.overall{
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    margin-bottom: 20px;
+}
