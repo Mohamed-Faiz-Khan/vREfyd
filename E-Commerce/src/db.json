@@ -1,0 +1,46 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "pname": "Mac Book",
+      "price": 250,
+      "nitem": 0
+    },
+    {
+      "id": "2",
+      "pname": "Google Book",
+      "price": 500,
+      "nitem": 0
+    },
+    {
+      "id": "3",
+      "pname": "Ear Pods",
+      "price": 100,
+      "nitem": 0
+    },
+    {
+      "id": "4",
+      "pname": "TV",
+      "price": 500,
+      "nitem": 0
+    },
+    {
+      "id": "5",
+      "pname": "Asus Laptop",
+      "price": 150,
+      "nitem": 0
+    },
+    {
+      "id": "6",
+      "pname": "Lenovo Laptop",
+      "price": 250,
+      "nitem": 0
+    },
+    {
+      "id": "7",
+      "pname": "6G Phone",
+      "price": 850,
+      "nitem": 0
+    }
+  ]
+}
