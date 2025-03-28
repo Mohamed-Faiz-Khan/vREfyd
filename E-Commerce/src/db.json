@@ -1,0 +1,53 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "pname": "Mac Book",
+      "pimage": "https://www.apple.com/v/macbook-air/t/images/overview/hero/hero_static__c9sislzzicq6_large.png",
+      "price": 250,
+      "nitem": 1
+    },
+    {
+      "id": "2",
+      "pname": "Google Book",
+      "pimage": "https://lh3.googleusercontent.com/XJenfpdInN3LjS4b9ulFiV8mc2PncCXHoE9xsdjYChZND38koCCTU49tDtq8tU6fLQdaKN5XGP3UpeddoK0sxypYgt14f_-HLQuHjBNB04cCEcsjMeE=w360-e365",
+      "price": 500,
+      "nitem": 6
+    },
+    {
+      "id": "3",
+      "pname": "Ear Pods",
+      "pimage": "https://m.media-amazon.com/images/I/51pycg0MGxL.jpg",
+      "price": 100,
+      "nitem": 4
+    },
+    {
+      "id": "4",
+      "pname": "TV",
+      "pimage": "https://electronicparadise.in/cdn/shop/files/SAMled.jpg?v=1701762179",
+      "price": 500,
+      "nitem": 0
+    },
+    {
+      "id": "5",
+      "pname": "Asus Laptop",
+      "pimage": "https://www.asus.com/media/Odin/Websites/global/Series/17.png",
+      "price": 150,
+      "nitem": 0
+    },
+    {
+      "id": "6",
+      "pname": "Lenovo Laptop",
+      "pimage": "https://images-cdn.ubuy.co.in/633b307339de233adb129c1e-lenovo-ideapad-3-intel-core-i5-1135g7.jpg",
+      "price": 250,
+      "nitem": 0
+    },
+    {
+      "id": "7",
+      "pname": "6G Phone",
+      "pimage": "https://images-cdn.ubuy.co.in/643193898159fd75b34d6623-smart-phone-pearl-white-6g-64g-6-28inch.jpg",
+      "price": 850,
+      "nitem": 3
+    }
+  ]
+}

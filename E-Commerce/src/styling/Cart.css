@@ -1,0 +1,70 @@
+.body {
+    margin-top: 100px;
+    margin-bottom: 80px;
+    padding: 0 60px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+    overflow: hidden;
+    border-radius: 12px;
+    background-color: #fff5e1; /* Light Gold Background */
+  }
+  
+  thead {
+    background: linear-gradient(90deg, #ffcc00, #ff6600); /* Gold to Red Gradient */
+    color: white;
+  }
+  
+  th, td {
+    border: none;
+    padding: 20px;
+    text-align: center;
+    font-size: 16px;
+  }
+  
+  th {
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  tbody tr {
+    transition: background-color 0.3s ease;
+  }
+  
+  tbody tr:nth-child(odd) {
+    background-color: #ffe4b5; /* Light Yellow */
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #fff0cc; /* Lighter Gold */
+  }
+  
+  tbody tr:hover {
+    background-color: #ffdd99; /* Hover Effect with Gold Shade */
+    transform: scale(1.02);
+    transition: transform 0.3s ease;
+  }
+  
+  h3 {
+    margin-top: 30px;
+    color: #ff4500; /* Vibrant Orange */
+    font-size: 1.8rem;
+  }
+  
+  p {
+    color: #d32f2f; /* Red Alert Color */
+    font-size: 1.4rem;
+    text-align: center;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    th, td {
+      padding: 12px;
+      font-size: 14px;
+    }
+  }
+  

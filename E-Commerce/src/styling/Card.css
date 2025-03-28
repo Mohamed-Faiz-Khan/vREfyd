@@ -1,0 +1,90 @@
+/* .container {
+  border: 1px solid black;
+  border-radius: 20px;
+  width: 250px;
+  height: 210px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 13%;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.itemsUpdate{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 5px;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container {
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  width: 280px;
+  height: 350px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.container:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 30px rgba(0,0,0,0.15);
+}
+
+
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.95); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+.image img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.pname, .price {
+  font-size: 1.2rem;
+  margin: 10px;
+  font-weight: bold;
+}
+
+.itemsUpdate {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.itemsUpdate button {
+  font-size: 1.1rem;
+  background-color: #ff4d4d;
+}
+
+.itemsUpdate button:hover {
+  background-color: #e60000;
+}
